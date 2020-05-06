@@ -1,49 +1,117 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Saylani</title>
-  </head>
-  <body>
-<div id="mainDiv" class="container-fluid bg-warning">
- <div id="topBar" class="container-fluid bg-success">
-    <div id="topBarContent" class="container bg-primary">
-      <div id="topBarRow" class="row bg-danger">
-        <div class="col bg-warning d-flex align-items-center">
-          <img src="images/facebookLogo.png" width="20px" height="20px" class="mx-2" alt="Facebook Icon">
-          <img src="images/twitterIcon.png" width="20px" height="20px" class="mx-2" alt="Twitter Icon">
-          <img src="images/instaIcon.png" width="20px" height="20px" class="mx-2" alt="Instagram Icon">
-          <img src="images/youtubeIcon.png" width="20px" height="20px" class="mx-2" alt="Youtube Icon">
-          <img src="images/whatsappLogo.png" width="20px" height="20px" class="mx-2" alt="Whatsapp Icon">
-        </div>
-        <div class="col-6 bg-info d-flex justify-content-center align-items-center">
-          Millions of people's life has changed, millions more awaiting your donation
-        </div>
-        <div id="btuttons" class="col bg-warning d-flex flex-row justify-content-center align-items-center">
-          <button id="btn1" class="mx-1" type="submit">UK Donor</button>
-          <button id="btn1" class="mx-1" type="submit">Donate Now</button>
-          <button id="btn1" class="mx-1" type="submit">SMIT Results</button>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+  <script src="bootstrap-4.3.1-dist/js/jquery-3.5.0.min.js"></script>
+  <title>Saylani</title>
+</head>
+<body>
+  <div id="mainDiv" class="container-fluid bg-warning">
+    <div id="topBar" class="container-fluid bg-success">
+      <div id="topBarContent" class="container bg-primary">
+        <div id="topBarRow" class="row bg-danger">
+          <div class="col bg-warning d-flex align-items-center">
+            <img src="images/facebookLogo.png" width="20px" height="20px" class="mx-2" alt="Facebook Icon">
+            <img src="images/twitterIcon.png" width="20px" height="20px" class="mx-2" alt="Twitter Icon">
+            <img src="images/instaIcon.png" width="20px" height="20px" class="mx-2" alt="Instagram Icon">
+            <img src="images/youtubeIcon.png" width="20px" height="20px" class="mx-2" alt="Youtube Icon">
+            <img src="images/whatsappLogo.png" width="20px" height="20px" class="mx-2" alt="Whatsapp Icon">
+          </div>
+          <div class="col-6 bg-info d-flex justify-content-center align-items-center">
+            Millions of people's life has changed, millions more awaiting your donation
+          </div>
+          <div id="btuttons" class="col bg-warning d-flex flex-row justify-content-center align-items-center">
+            <button id="btn1" class="mx-1" type="submit">UK Donor</button>
+            <button id="btn1" class="mx-1" type="submit">Donate Now</button>
+            <button id="btn1" class="mx-1" type="submit">SMIT Results</button>
+          </div>
         </div>
       </div>
     </div>
- </div>
-<div id="navBar" class="container bg-success">
-  <div id="navBarRow" class="row">
-    <div id="saylaniLogo"class="col d-flex align-items-center">
-      <img src="images/saylani-logo.png" width="200px" height="50px" alt="Saylani Logo">
+    <div id="navBar" class="container bg-success">
+      <div id="navBarRow" class="row">
+        <div id="saylaniLogo"class="col d-flex align-items-center">
+          <img src="images/saylani-logo.png" width="200px" height="50px" alt="Saylani Logo">
+        </div>
+        <div class="col-7 bg-danger d-flex align-items-center justify-content-around">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Introduction</a>
+                    <a class="dropdown-item" href="#">Chairman Message</a>
+                    <a class="dropdown-item" href="#">Saylani Annual Report</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Saylani Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Education</a>
+                    <a class="dropdown-item" href="#">Medical</a>
+                    <a class="dropdown-item" href="#">Welfare</a>
+                    <a class="dropdown-item" href="#">Hajj Application Form</a>
+                    <a class="dropdown-item" href="#">Saylani Dastarkhwan</a>
+                    <a class="dropdown-item" href="#">Saylani RO Plant</a>
+                    <a class="dropdown-item" href="#">Online Sadqah</a>
+                    <a class="dropdown-item" href="#">Online Taweezat/Istekhara</a>
+                    <a class="dropdown-item" href="#">Saylani Job Bank</a>
+                    <a class="dropdown-item" href="#">Online Quran Academy</a>
+                    <a class="dropdown-item" href="#">Books</a>
+                    <a class="dropdown-item" href="#">Saylani Online Masajid</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Future Project
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Saylani University</a>
+                    <a class="dropdown-item" href="#">Saylani City</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Media<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">News<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Donation
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Bank Details</a>
+                    <a class="dropdown-item" href="#">Sadqah</a>
+                    <a class="dropdown-item" href="#">Aqiqah</a>
+                    <a class="dropdown-item" href="#">Other Donation</a>
+                    <a class="dropdown-item" href="#">Corona Effecties</a>
+                    <a class="dropdown-item" href="#">Ramzan-2020</a>
+                    <a class="dropdown-item" href="#">Contact Us</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
     </div>
-    <div class="col-7 bg-danger d-flex align-items-center justify-content-around">
-
-
-
   </div>
-  </div>
-</div>
+  <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+  <script src="bootstrap-4.3.1-dist/js/jquery-3.5.0.min.js"></script>
 
-</div>
-<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-<script src="bootstrap-4.3.1-dist/js/jquery-3.5.0.min.js"></script>
-  </body>
+</body>
 </html>

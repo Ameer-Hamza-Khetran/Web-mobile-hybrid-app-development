@@ -1,3 +1,4 @@
+@import "bootstrap-4.3.1-dist/css/bootstrap.min.css";
 #topBar{
   height: 40px;
 }
@@ -19,4 +20,7 @@
 }
 #navBarRow{
 height: 70px;
+}
+.nav-item:hover .dropdown-menu{
+  display : block;
 }
