@@ -22,5 +22,21 @@
 height: 70px;
 }
 .nav-item:hover .dropdown-menu{
-  display : block;
+    display : block;
+}
+#marqueeRow{
+  height: 30px;
+}
+#marqueeCol{
+  height: 20px;
+  font-size: 12px;
+  background-color: #316dc3;
+  color: white;
+}
+#introHeading{
+  height: 130px;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  color: #316DC3;
+  font-weight: 600;
 }
