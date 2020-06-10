@@ -30,4 +30,6 @@ jobs:
        run : npm install -g surge
        
        -name : Run Surge
-        run : surge ./ khetran-bootcamp.surge.sh
+        run : surge ./ khetran-bootcamp.surge.sh --token${{secrets.surge_token}}
+        
+        
