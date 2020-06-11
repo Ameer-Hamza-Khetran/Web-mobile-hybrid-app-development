@@ -22,11 +22,11 @@ jobs:
 
     # Runs a single command using the runners shell
     
-    -name : NodeJS Installation
-    uses : actions/setup-node@v2-beta
-    with :
-     node-version : 12 
-  -name : Surge Installation
-  run : npm install -g surge
--name : Surge run
-run : surge ./ khetran-bootcamp.surge.sh --token${{secrets.surge_token}} 
+    - name: NodeJS Installation
+      uses : actions/setup-node@v2-beta
+      with :
+       node-version : 12 
+    - name: surge Installation
+      run: npm install -g surge
+    - name: Run Surge
+      run: surge ./ khetran-bootcamp.surge.sh --token${{secrets.surge_token}} 
