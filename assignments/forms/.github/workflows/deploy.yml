@@ -28,4 +28,4 @@ jobs:
       with:
         node-version: 12
     - name: Surge Installation
-      run: surge ./ khetran_bc20.surge.sh --token${{secrets.}}
+      run: surge ./ khetran_bc20.surge.sh --token${{secrets.deploy}}
