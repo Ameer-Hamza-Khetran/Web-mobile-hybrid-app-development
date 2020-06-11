@@ -26,7 +26,7 @@ jobs:
     uses : actions/setup-node@v2-beta
     with :
      node-version : 12 
-    -name : Surge Installation
-     run : npm install -g surge
-    -name : Surge run
-     run : surge ./ khetran-bootcamp.surge.sh --token${{secrets.surge_token}} 
+  -name : Surge Installation
+  run : npm install -g surge
+-name : Surge run
+run : surge ./ khetran-bootcamp.surge.sh --token${{secrets.surge_token}} 
