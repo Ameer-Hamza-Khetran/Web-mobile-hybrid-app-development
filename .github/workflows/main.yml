@@ -27,7 +27,7 @@ jobs:
         node-version : 12
         
       -name : Install Surge
-      
+       run : npm install -g surge build 
        
        -name : Run Surge
         run : surge ./ khetran-bootcamp.surge.sh --token${{secrets.surge_token}}
